@@ -1,6 +1,0 @@
-#!/bin/bash
-
-while read line
-do
-    echo "close_write: $line"
-done < <(inotifywait -mr -e close_write "src/")
