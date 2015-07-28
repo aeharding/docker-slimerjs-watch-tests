@@ -4,6 +4,8 @@ MAINTAINER Alexander Harding <alexander.harding@software.dell.com>
 
 RUN apt-get install -y inotify-tools
 
+RUN mkdir cux.css
+
 COPY ./inotifyrun /bin/
 
 # add your code with a link on runtime
